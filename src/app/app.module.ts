@@ -20,10 +20,12 @@ export const firebaseConfig = {
     };
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
